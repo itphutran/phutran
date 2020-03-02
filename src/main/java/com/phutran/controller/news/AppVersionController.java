@@ -17,7 +17,7 @@ import java.util.List;
 public class AppVersionController {
     @Autowired
     private AppVersionService appVersionService;
-
+	//test
     @ResponseBody
     @GetMapping("version")
     public String index() {
