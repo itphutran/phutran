@@ -18,6 +18,7 @@ public class AppVersionController {
     @Autowired
     private AppVersionService appVersionService;
 	//test
+	// auto deploy
     @ResponseBody
     @GetMapping("version")
     public String index() {
